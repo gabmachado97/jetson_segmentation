@@ -114,7 +114,7 @@ while True:
 	output.Render(buffers.output)
 
 	# update the title bar
-	output.SetStatus("{:s} | Network {:.0f} FPS".format(opt.network, net.GetNetworkFPS()))
+	output.SetStatus("{:s} | Network {:.0f} FPS".format("HRNET w18", net.GetNetworkFPS()))
 
 	# print out performance info
 	jetson.utils.cudaDeviceSynchronize()
