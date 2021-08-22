@@ -46,7 +46,7 @@ output = jetson.utils.videoOutput(opt.output_URI, argv=sys.argv+is_headless)
 width = 176.0
 height = 144.0
 
-# determine the amount of border pixels (cropping around the center by half)`
+# determine the amount of border pixels (superior and inferior)`
 crop_border = (height//5,
 		height//4)
 
